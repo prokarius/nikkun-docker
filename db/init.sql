@@ -1,0 +1,9 @@
+CREATE TABLE account
+(
+username VARCHAR(64) NOT NULL,
+email VARCHAR(320) NOT NULL,
+contact VARCHAR(15) NOT NULL,
+pass VARCHAR(255) NOT NULL,
+name VARCHAR(255) NOT NULL,
+PRIMARY KEY (username)
+);
